@@ -1,0 +1,1 @@
+awk -F',' '{ if($3!=""){print $0} fi }' ads-b.csv > ads-b_with_id.csv
